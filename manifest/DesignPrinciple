@@ -1,0 +1,10 @@
+Design principle of the org or project:
+
+- A big project usualluy will have PRO CODE approach. ( Means instead of flow they prefer to write codes )
+    -They will  not combine flow and trigger . 
+    -Deployement strategy
+        -Dev (sandbox)
+        -QA (sandbox)
+        -UAT (user acceptance) Full Copy Sandbox 
+        -Production()
+- A small or medium we should go with LOW CODE approach . ( Generally flows is used to create automotion. If we do not have to we do not write code a lot.)

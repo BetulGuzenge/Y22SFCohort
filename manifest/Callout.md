@@ -1,0 +1,2 @@
+-when we call from SF to any external sysytem , we say callout. 
+- 10 sec of timeout. External system consumes nore time to respond (more than 10 sec) then call out will fail . 

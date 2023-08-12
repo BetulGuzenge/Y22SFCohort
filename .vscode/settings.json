@@ -1,0 +1,13 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "debug.javascript.autoAttachFilter": "always",
+  "debug.javascript.automaticallyTunnelRemoteServer": true,
+  "debug.javascript.breakOnConditionalError": true,
+  "debug.javascript.codelens.npmScripts": "top",
+  "debug.javascript.unmapMissingSources": true,
+  "salesforcedx-vscode-core.show-cli-success-msg": false
+}

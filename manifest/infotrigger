@@ -1,0 +1,12 @@
+TRIGGER
+
+What type automation to perform in before triggers? 
+-Update same record which is inserted or updated 
+-validation in trigger ( try to do it before trigger)
+
+What type automation to perform in after triggers?
+
+-insert/update/delete related records
+-send email
+-while inserting , if we need id of record then use after . (BEFORE TRIGGER there is no ID )
+
