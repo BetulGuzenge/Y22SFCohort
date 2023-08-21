@@ -1,2 +1,0 @@
-StudentInfo3.show();
-
