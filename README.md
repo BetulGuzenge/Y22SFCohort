@@ -1,5 +1,5 @@
 # A NEW Feature is released. Feature #1
-Releasing  new feature shortly.
+Releasing  new feature shortly....
 
 <<<<<<< HEAD
 =======
