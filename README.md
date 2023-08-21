@@ -1,6 +1,10 @@
 # A NEW Feature is released. Feature #1
 Releasing  new feature shortly.
 
+<<<<<<< HEAD
+=======
+This is the new repository
+>>>>>>> 68033ea6c0f2c27e63ad68eef68caa5439e9305d
 
 # Salesforce DX Project: Next Steps
 
