@@ -12,7 +12,7 @@ public with sharing class UserModeDemo {
         Account acc = new account(name = 'test user mode wo website', Industry = 'Energy', rating = 'Hot');
         insert as User acc;
     }
-
+ 
     public static void Assignment3 (){
         list<Account > a = [select id, name, website, phone from account WITH SECURITY_ENFORCED ];
         system.debug (a);
@@ -64,7 +64,7 @@ public with sharing class UserModeDemo {
     }
 
     public static void sampleAccounts5() {
-        string accQuery = 'select id, name, website, phone from account WITH USER_MODE';
+        string accQuery = 'select id, name, website, phone from account';
         List<SObject> allAcc = Database.query(accQuery, AccessLevel.USER_MODE);// AccessLevel is recommended to be used // Access Level is Enum here
         system.debug(allAcc);
    }
@@ -74,7 +74,7 @@ public with sharing class UserModeDemo {
         List<SObject> allemp = Database.query(empQuery, AccessLevel.USER_MODE);
         system.debug(allemp);
 }
-
+ 
 
 
  }
